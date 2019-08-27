@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>mouse over & out</title>
+</head>
+
+<body>
+  <p onmouseover="sini(this)" onmouseout="sana(this)">Dekatkan Mouse</p>
+
+  <script type="text/javascript">
+    var sini = (x) => {
+      x.style.color = "red";
+      return sini;
+    }
+
+    var sana = (x) => {
+      x.style.color = "black";
+      return sana;
+    }
+  </script>
+</body>
+
+</html>
